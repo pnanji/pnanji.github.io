@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="19px" viewBox="0 0 26 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-(Desktop)" transform="translate(-430.000000, -4986.000000)" fill="#B3B3B3">
+            <g id="Contact-Us" transform="translate(180.000000, 4881.000000)">
+                <g id="Email" transform="translate(250.000000, 98.000000)">
+                    <path d="M25.2900009,9.39272173 L25.2900009,8.00760001 C25.2900009,7.44477965 24.8461369,7 24.2986029,7 L0.991398007,7 C0.438955323,7 0,7.45111789 0,8.00760001 L0,9.29189078 L11.7252469,17.9710559 C12.2300659,18.3592237 13.103454,18.3582538 13.6043815,17.971984 L25.2900009,9.39272173 Z M25.2900009,11.9839322 L25.2900009,23.7354255 C25.2900009,24.8430989 24.3899164,25.7410457 23.284398,25.7410457 L2.00560295,25.7410457 C0.897939028,25.7410457 0,24.8371261 0,23.7354255 L0,11.8924685 L10.1884408,19.4340717 C11.5686083,20.4953166 13.7693063,20.4928727 15.1435981,19.4331437 L25.2900009,11.9839322 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
