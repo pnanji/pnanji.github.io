@@ -743,7 +743,6 @@ th {
   #contactIcons li.item {
 	margin-bottom: 24px;
   }
-
 }
 
 @media (max-width: 375px) {
@@ -754,5 +753,109 @@ th {
   td {
   	padding: 16px 12px 0px;
   }
+}
 
+																/*Contact Form*/
+#formLabel {
+	font-family: 'equity_caps_aregular';
+	font-size: 1.125rem;
+	margin: 48px 0 32px 0;
+}
+
+.formInput input {
+	width: 50%;
+	padding: 8px 8px 8px 16px;
+	font-family: 'concourse_t3regular';
+	font-size: 1.75rem;
+	line-height: 2.3125rem;
+	border: solid 1px #333;
+	background-color: white;	
+}
+
+.formInput {
+	margin: 0px 0 40px;
+	font-family: 'concourse_t3regular';
+	font-size: 1.125rem;
+	line-height: 1.375rem;
+}
+
+textarea#styled {
+	width: 100%;
+	padding: 8px;
+	font-family: 'concourse_t3regular';
+	font-size: 1.75rem;
+	line-height: 2.3125rem;
+	border: solid 1px #333;
+	background-color: white;
+	color: #B3B3B3;
+}
+
+#submitButton {
+	background-color: #333;
+	color: #fafaf5;
+	display: block;
+	text-align: center;
+	font-family: 'concourse_c3regular';
+	font-size: 1.1875rem;
+	text-decoration: none;
+	padding: 4px 9px 6px 9px;
+	border: none;
+	margin: 0px auto 112px;
+}
+
+
+
+
+																/*Footer*/
+footer {
+	background-color: #333;
+	color: #fafaf5;
+	font-family: 'concourse_t3regular';
+	font-size: .875rem;
+	line-height: 1.0625rem;
+}
+
+.footerLink {
+	color: #fafaf5;
+	font-family: 'concourse_t3regular';
+	font-weight: bold;
+}
+
+footer p {
+	max-width: 640px;
+	margin: auto;
+	padding-top: 72px;
+	text-align: center;
+}
+
+footer .container {
+	width: 40%;
+	margin: auto;
+}
+footer li {
+	float: none;
+}
+
+footer li a {
+	color: #B3B3B3;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'concourse_t3regular';
+	text-align: left;
+	margin: 0px 0px 4px;
+}
+
+footer li.heading a {
+	color: #fafaf5;
+	margin: 48px 0px 8px;
+	font-family: 'concourse_c3regular';
+}
+
+#small.container {
+	width: 75%;
+	margin: auto;
+	padding-bottom: 4px;
+}
+#small.container p{
+	margin: 0px;
 }
