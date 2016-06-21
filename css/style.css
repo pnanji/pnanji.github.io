@@ -212,7 +212,7 @@ div#heroContent.container { justify-content: center; }
 
 .heroAuto #leftColHero .caption {
 	color: white;
-	font-size: 1.25rem;
+	font: 1.25rem/1.25rem 'concourse_c3regular', serif;
 	margin: 0px;
 }
 
@@ -1091,7 +1091,7 @@ p#rightFooter.item {
 
 
 
-																/*FAQs Section*/
+																/*Two-Column Articles*/
 .twoColumn {
 	width: 85%;
 	max-width: 1080px;
@@ -1105,7 +1105,7 @@ p#rightFooter.item {
 }
 
 .twoColumn h5 {
-	margin: 24px 0px 40px;
+	margin: 24px 0px 64px;
 	line-height: 1.5rem;
 	color: #a6a6a6;
 }
@@ -1124,18 +1124,54 @@ h6 {
 	margin-bottom: 16px; 
 }
 
-.twoColumn .container {
-	justify-content: flex-start;
-	flex-flow: row wrap;
-	align-items: flex-start;
+.bicolumn {
+  -webkit-columns: 2 350px;
+     -moz-columns: 2 350px;
+          columns: 2 350px;
+  -webkit-column-gap: 4rem;
+     -moz-column-gap: 4rem;
+          column-gap: 4rem;    
 }
 
-.twoColumn .item {
-	width: 46%;
-	margin-bottom: 24px;
+.bicolumnItem {
+	-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+	page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+    margin-bottom: 40px;
 }
 
-.twoColumn .item:nth-child(odd) {
-	margin-right: 56px;
+.indentContent {
+	font: 1.125rem/1.375rem 'concourse_t3regular', serif;
+	list-style: circle;
+	padding: 16px 0 16px 64px;
 }
-												
+
+.indentContent li:not(:last-child) {
+	margin-bottom: 12px;
+	
+}
+
+
+
+
+															/*Single-Column Articles*/			
+.darkBackground {
+	background-color: #333;
+}
+
+.darkBackground h2, .darkBackground p {
+	color: #fafaf5;
+}
+
+.singleColumn {
+	margin-left: 35%;
+}
+
+.darkBackground .indentContent {
+	color: white;
+	list-style: circle;
+}
+
+p.boldText {
+	padding-top: 16px;
+}
