@@ -6,17 +6,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script type='text/javascript'>//<![CDATA[
+			$(window).load(function(){
+			$(".UncheckAll").click(function() {
+				$("input[type='checkbox']").prop('checked', false);
+			});
+
+
+			$(".CheckAll").click(function() {
+				$("input[type='checkbox']").prop('checked', true);
+			})
+			});//]]> 
+		</script>
 	</head>
 	<body>
 		<header>
 			<div id="headerContent" class="header">
 				<a href="index.html" class="logo"><img src="images/logoMark.svg" alt="the logo mark"></a>
-				<input class="menu-btn" type="checkbox" id="menu-btn" />
+				<input type="checkbox" class="menu-btn" id="menu-btn" />
 				<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 				<ul class="menu">
-				    <li><a href="#section1">areas of practice</a></li>
-				    <li><a href="#section2">about our firm</a></li>
-				    <li><a href="#section3">contact us</a></li>
+			   		<li>
+			   			<a href="#section1" class="UncheckAll" value="UncheckAll">areas of practice</a>
+			   		</li>
+			    	<li>
+			    		<a href="#section2" class="UncheckAll" value="UncheckAll">about our firm</a>
+			    	</li>
+			    	<li>
+			    		<a href="#section3" class="UncheckAll" value="UncheckAll" id="contactButton">contact us</a>
+			    	</li>
 				</ul>
 			</div>
 		</header>
