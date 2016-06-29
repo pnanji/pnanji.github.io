@@ -15,18 +15,6 @@
 // Form options
 $options['captcha_secret']      = '6LdN4iMTAAAAAALQtfZgL5tivUjxx8GRTuwfAcow';                     // Google reCAPTCHA secret key
 $options['redirect_url']        = '';                                     // URL of custom success page
-$options['attachment_types']    = array( 'image/jpeg',                    // Array of mime-types to allow in uploads
-                                      'image/gif',
-                                      'image/png',
-                                      'application/msword',
-                                      'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                                      'application/pdf',
-                                      'application/zip'
-                                    );
-
-// Attachment management
-$options['attachment_dir']      = 'attachments/';                         // Attachments upload directory
-$options['attachment_limit']    = 10;                                     // 10mb is the considered "safe" size
 
 // Generic email options
 $options['from_address']        = 'paymonnanji@gmail.com';               // Address the email is sent from
@@ -38,11 +26,11 @@ $options['bcc_addresses']       = array( 'you@email.com' );               // BCC
 $options['email_confirmation']  = false;                                  // Should the end user get a confirmation email?
 
 // SMTP options
-$options['use_smtp']            = false;                                  // Should the email be sent via SMTP, or default PHP mail server?
-$options['smtp_host']           = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+$options['use_smtp']            = true;                                  // Should the email be sent via SMTP, or default PHP mail server?
+$options['smtp_host']           = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $options['smtp_auth']           = true;                                   // Enable SMTP authentication
-$options['smtp_username']       = 'username';                             // SMTP username
-$options['smtp_password']       = 'password';                             // SMTP password
+$options['smtp_username']       = 'paymonnanji@gmail.com';                             // SMTP username
+$options['smtp_password']       = 'ECBA9LPW9hNEDBPHoafKybzo';                             // SMTP password
 $options['smtp_secure']         = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
 $options['smtp_port']           = 587;                                    // TCP port to connect to
 
