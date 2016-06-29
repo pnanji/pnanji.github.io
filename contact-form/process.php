@@ -13,7 +13,7 @@
  */
 
 // Form options
-$options['captcha_secret']      = 'YOUR_SITE_SECRET';                     // Google reCAPTCHA secret key
+$options['captcha_secret']      = '6LdN4iMTAAAAAALQtfZgL5tivUjxx8GRTuwfAcow';                     // Google reCAPTCHA secret key
 $options['redirect_url']        = '';                                     // URL of custom success page
 $options['attachment_types']    = array( 'image/jpeg',                    // Array of mime-types to allow in uploads
                                       'image/gif',
@@ -29,13 +29,13 @@ $options['attachment_dir']      = 'attachments/';                         // Att
 $options['attachment_limit']    = 10;                                     // 10mb is the considered "safe" size
 
 // Generic email options
-$options['from_address']        = 'jigobot@yourdomain.com';               // Address the email is sent from
-$options['from_name']           = 'Jigobot';                              // Name to attach to the address
-$options['to_addresses']        = array( 'you@email.com' );               // To: addresse(s), add new array item for more
+$options['from_address']        = 'paymonnanji@gmail.com';               // Address the email is sent from
+$options['from_name']           = 'Paymon';                              // Name to attach to the address
+$options['to_addresses']        = array( 'paymonnanji@gmail.com' );               // To: addresse(s), add new array item for more
 $options['bcc_addresses']       = array( 'you@email.com' );               // BCC: addresse(s), add new array item for more
 
 // Send confirmation message of successful email to end user
-$options['email_confirmation']  = false;                                  // Should the end user get a confirmation email?
+$options['email_confirmation']  = true;                                  // Should the end user get a confirmation email?
 
 // SMTP options
 $options['use_smtp']            = false;                                  // Should the email be sent via SMTP, or default PHP mail server?
